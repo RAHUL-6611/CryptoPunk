@@ -22,7 +22,7 @@ const Main = ({punkListData,selectedPunk}) => {
                     <img src={activePunk.image_url} alt="null" className="selectedPunk"/>
                 </div>
             </div>
-            <div>
+            
             <div className="partb">
             <div 
                 className="punkDetails"
@@ -40,7 +40,7 @@ const Main = ({punkListData,selectedPunk}) => {
                         <div>{activePunk.owner.address}</div>
                         <div className="ownerHandle">Rahulparmar@metaverse.com</div>
                     </div>
-                    </div>
+
                     <div className="links">
                     <div className="ownerLink">
                         <img className="logos" src={moreIcon} alt="" />
@@ -52,9 +52,10 @@ const Main = ({punkListData,selectedPunk}) => {
                         <img className="logos" src={instaIcon} alt="" />
                     </div>
                     </div>
+                    </div>
                 </div>
                 </div>
-            </div>
+        
             </div>
             
         </div>

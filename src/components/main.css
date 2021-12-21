@@ -42,6 +42,7 @@
 }
 .punkDetails{
     display: flex;
+    /* justify-content:space    -between; */
    
 }
 

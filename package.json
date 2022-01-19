@@ -35,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": {
+    "*":{ "target" : "https://61e8207edeb60a00083101b6--cryptopunk-nftminter.netlify.app/"}
+ }
 }

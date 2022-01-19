@@ -13,7 +13,7 @@ function App() {
 
   useEffect(()=>{
     const getMyNfts = async ()=>{
-      const nftData = await axios.get('https://testnets-api.opensea.io/assets?asset_contract_address=0x9b86606518753d11fc924159e4a51fe526911a5a&order_direction=asc',
+      const nftData = await axios.get('https://testnets-api.opensea.io/assets?asset_contract_address=0x9b86606518753d11fc924159e4a51fe526911a5a&order_direction=asc&embed=true',
       {'Content-Type': 'application/x-www-form-urlencoded'},
       {"Access-Control-Allow-Origin": "https://cryptopunk-nftminter.netlify.app/"})
       // console.log(nftData.data.assets); //https://testnets.opensea.io/assets/<asset_contract_address>/<token_id>
